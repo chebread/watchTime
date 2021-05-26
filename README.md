@@ -6,7 +6,7 @@
 ### 사용
 1. 홈 디렉터리의 .zshrc 파일에서 alias watch="/usr/bin/python3 /Users/ihaneum/Desktop/watchTime/exec.py"을 추가하세요 😎
 
-2. 만약 zsh 셸을 사용하지 않는다면 bash 파일에 ⓵ 의 명령어를 추가하세요 🙂
+2. 만약 zsh 셸을 사용하지 않는다면 bash 파일에 ⓵ 의 명령어를 추가하세요 ! 🙂
 
 ✋현재 버전: v2.0 (21/5/26)
 
