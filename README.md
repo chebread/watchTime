@@ -4,7 +4,7 @@
 시계 하나 쯤은 만들고 싶어서 만들었수다 😜
 
 ### 사용
-1. 홈 디렉터리의 .zshrc 파일에서 alias watch="/usr/bin/python3 /Users/ihaneum/Desktop/watchTime/exec.py"을 추가하세요 😎
+1. 홈 디렉터리의 .zshrc 파일에서 `alias watch="/usr/bin/python3 /Users/ihaneum/Desktop/watchTime/exec.py"`을 추가하세요 😎
 
 2. 만약 zsh 셸을 사용하지 않는다면 bash 파일에 ⓵ 의 명령어를 추가하세요 ! 🙂
 
