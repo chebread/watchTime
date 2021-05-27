@@ -32,4 +32,4 @@ if LeapYear(_time_.year) == 1:
 else:
     pass
 print(watch)
-print("POWER BY HE")
+print("POWER BY PYTHON")
