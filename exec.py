@@ -14,6 +14,8 @@ def AM(hour):
     if hour > 12:
         am = hour - 12
         return am
+    else:
+        return hour
 def LeapYear(year):
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
         return 1
@@ -32,4 +34,3 @@ if LeapYear(_time_.year) == 1:
 else:
     pass
 print(watch)
-print("POWER BY PYTHON")
