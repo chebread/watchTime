@@ -5,11 +5,14 @@ def Time():
     day = _time_.day
     month = _time_.month
     leap_year = LeapYear(_time_.year)
+    weekdays = ['월', '화', '수', '목', '금', '토', '일']
+    weekday_num = _time_.today().weekday()
+    weekday = weekdays[weekday_num]
     year = _time_.year
     second = _time_.second
     minute = _time_.minute
     hour = AM(_time_.hour)
-    return "%s년 %s월 %s일 %s시 %s분 %s초"%(year, month, day, hour, minute, second)
+    return "%s년 %s월 %s일 %s요일 %s시 %s분 %s초"%(year, month, day, weekday, hour, minute, second)
 def AM(hour):
     if hour > 12:
         am = hour - 12
