@@ -3,16 +3,18 @@ from datetime import *
 def Time():
     _time_ = datetime.now()
     day = _time_.day
-    month = _time_.month
+    month_num = _time_.month
+    months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    month = months[month_num]
     leap_year = LeapYear(_time_.year)
-    weekdays = ['월', '화', '수', '목', '금', '토', '일']
+    weekdays = ['Mon', 'Tue', 'Wen', 'Thu', 'Fri', 'Sat', 'Sun']
     weekday_num = _time_.today().weekday()
     weekday = weekdays[weekday_num]
     year = _time_.year
     second = _time_.second
     minute = _time_.minute
     hour = AM(_time_.hour)
-    return "%s년 %s월 %s일 %s요일 %s시 %s분 %s초"%(year, month, day, weekday, hour, minute, second)
+    return "%s %s %s %s:%s:%s %s"%(weekday,  month, day, hour, minute, second, year)
 def AM(hour):
     if hour > 12:
         am = hour - 12
@@ -26,7 +28,7 @@ def LeapYear(year):
         return -1
 def DisplayLeapYear(n):
     if n == -1:
-        return "올해는 윤년이에요"
+        return "This year a leap year"
     else:
         pass
 watch = Time()
