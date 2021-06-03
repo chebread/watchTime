@@ -1,4 +1,4 @@
-# 시계
+# Watch
 from datetime import *
 def Time():
     _time_ = datetime.now()
